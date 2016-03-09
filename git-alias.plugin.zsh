@@ -1,1 +1,2 @@
 alias glol="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias diogenes="git for-each-ref --sort='authoremail' --format='%(committerdate)%09%(authorname) %(authoremail) %(refname)%09=> %(subject)' refs/remotes/origin/ | sed 's/refs\/remotes\/origin\///'"
